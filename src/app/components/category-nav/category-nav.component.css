@@ -1,0 +1,8 @@
+a{
+    font-weight: 400;
+    color:black;
+}
+.active a{
+  color:#37d1ff;
+
+}

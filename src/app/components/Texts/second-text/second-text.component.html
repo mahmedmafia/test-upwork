@@ -1,0 +1,22 @@
+<ul>
+  <div>
+    <li (click)="showQuestions(1)">Text - Question 6 <span class="pull-right" style="float: right;">7.2</span></li>
+  </div>
+  <ng-container *ngIf="questions.indexOf(1)!=-1">
+    Hello 1
+  </ng-container>
+  <div>
+    <li (click)="showQuestions(2)">Text -Question 2 <span class="pull-right" style="float: right;">7.2</span></li>
+  </div>
+  <ng-container *ngIf="questions.indexOf(2)!=-1">
+    Hello 2
+  </ng-container>
+  <li (click)="showQuestions(3)">Text - Question 3<span class="pull-right" style="float: right;">7.2</span></li>
+  <ng-container *ngIf="questions.indexOf(3)!=-1">
+    Hello 3
+  </ng-container>
+  <li (click)="showQuestions(4)">Text -Question 6 <span class="pull-right" style="float: right;">7.2</span></li>
+  <ng-container *ngIf="questions.indexOf(4)!=-1">
+    Hello 4
+  </ng-container>
+</ul>

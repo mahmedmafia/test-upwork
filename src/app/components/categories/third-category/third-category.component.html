@@ -1,0 +1,22 @@
+<ul>
+  <div>
+    <li (click)="ShowGraph(1)">Question 1 <span class="pull-right" style="float: right;">7.2</span></li>
+  </div>
+  <ng-container *ngIf="graphs.indexOf(1)!=-1">
+    Hello 1
+  </ng-container>
+  <div>
+   <li (click)="ShowGraph(2)">Question 2 <span class="pull-right" style="float: right;">7.2</span></li>
+  </div>
+  <ng-container *ngIf="graphs.indexOf(2)!=-1">
+    Hello 2
+  </ng-container>
+  <li (click)="ShowGraph(3)">Question 3<span class="pull-right" style="float: right;">7.2</span></li>
+  <ng-container *ngIf="graphs.indexOf(3)!=-1">
+    Hello 3
+  </ng-container>
+  <li (click)="ShowGraph(4)">Question 4 <span class="pull-right" style="float: right;">7.2</span></li>
+  <ng-container *ngIf="graphs.indexOf(4)!=-1">
+    Hello 4
+  </ng-container>
+</ul>

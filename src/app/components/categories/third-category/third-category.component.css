@@ -1,0 +1,14 @@
+ul{
+    list-style-type: decimal;
+}
+li{
+    /* justify-content: space-between;
+    display: flex; */
+    width: 80%;
+    padding:10px 0px;
+    margin:10px 0px;
+}
+/* .listitem{
+margin: 5px;
+padding: 5px;
+} */

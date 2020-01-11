@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+.middle{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.bold
+{
+    font-weight: bold;
+}
+.light{
+    color:gray;
+}
+.bluelight{
+    color:#37d1ff;
+    font-weight: 600!;
+}
+a{
+    color:black;
+    cursor: pointer;
+}
+.active{
+    border-bottom: #37d1ff solid 4px;
+}
+.active a{
+  color:#37d1ff;
+}

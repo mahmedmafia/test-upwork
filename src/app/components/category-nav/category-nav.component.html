@@ -1,0 +1,15 @@
+<ul class="nav justify-content-center ">
+  <li class="nav-item" [ngClass]="{'active': first}">
+    <a class="nav-link" (click)="handleTab('first')">Category 1</a>
+  </li>
+  <li class="nav-item" [ngClass]="{'active': second}">
+    <a class="nav-link" (click)="handleTab('second')">Category 2</a>
+  </li>
+  <li class="nav-item" [ngClass]="{'active': third}">
+    <a class="nav-link" (click)="handleTab('third')">Category 3</a>
+  </li>
+</ul>
+<!-- <router-outlet style="height: 300px; width:300px;"></router-outlet> -->
+<app-first-category *ngIf="first"></app-first-category>
+<app-second-category *ngIf="second"></app-second-category>
+<app-third-category *ngIf="third"></app-third-category>

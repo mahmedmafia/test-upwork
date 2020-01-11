@@ -1,0 +1,18 @@
+<ul class="nav justify-content-center ">
+  <li class="nav-item" [ngClass]="{'active': text1}">
+    <a class="nav-link" (click)="handleTab('text1')">Text 1</a>
+  </li>
+  <li class="nav-item" [ngClass]="{'active': text2}">
+    <a class="nav-link" (click)="handleTab('text2')">Text 2</a>
+  </li>
+  <li class="nav-item" [ngClass]="{'active': text3}">
+    <a class="nav-link" (click)="handleTab('text3')">Text 3</a>
+  </li>
+  <li class="nav-item" [ngClass]="{'active': text4}">
+    <a class="nav-link" (click)="handleTab('text4')">Text 4</a>
+  </li>
+</ul>
+<app-text-first *ngIf="text1"></app-text-first>
+<app-second-text *ngIf="text2"></app-second-text>
+<app-third-text *ngIf="text3"></app-third-text>
+<app-fourth-text *ngIf="text4"></app-fourth-text>

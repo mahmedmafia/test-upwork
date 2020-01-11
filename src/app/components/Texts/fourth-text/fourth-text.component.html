@@ -1,0 +1,24 @@
+<ul>
+  <div>
+    <li (click)="showQuestions(1)">Text,Text <span class="pull-right" style="float: right;">7.2</span></li>
+  </div>
+  <ng-container *ngIf="questions.indexOf(1)!=-1">
+    <div class="sublist">Hello 3 <span class="pull-right" style="float: right;">7.2</span></div>
+
+  </ng-container>
+  <div>
+    <li (click)="showQuestions(2)">Text,Text <span class="pull-right" style="float: right;">7.2</span></li>
+  </div>
+  <ng-container *ngIf="questions.indexOf(2)!=-1">
+    <div class="sublist">Hello 3 <span class="pull-right" style="float: right;">7.2</span></div>
+
+  </ng-container>
+  <li (click)="showQuestions(3)">Text,Text<span class="pull-right" style="float: right;">7.2</span></li>
+  <ng-container *ngIf="questions.indexOf(3)!=-1">
+    <div class="sublist">Hello 3 <span class="pull-right" style="float: right;">7.2</span></div>
+  </ng-container>
+  <li (click)="showQuestions(4)">Text,Text <span class="pull-right" style="float: right;">7.2</span></li>
+  <ng-container *ngIf="questions.indexOf(4)!=-1">
+    <div class="sublist">Hello 3 <span class="pull-right" style="float: right;">7.2</span></div>
+  </ng-container>
+</ul>
